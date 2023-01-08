@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-  
+
   width: 100%;
   height: 97px;
   left: 0px;
@@ -82,7 +82,7 @@ body {
   /* align-content: center; */
   justify-content: center;
   align-items: center;
-  
+
   /* border: 2px solid #ba4949; */
 
   width: 100%;
@@ -118,7 +118,7 @@ body {
 }
 
 .b-1 button {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
 
@@ -159,7 +159,7 @@ body {
   
 }
 
-.tasks-container .task input{
+.tasks-container .task input {
   width: 25rem;
   height: 3rem;
   background: none;
@@ -168,19 +168,33 @@ body {
   color: #fffefe;
 }
 
-.save-delete{
+.doneInput {
+  width: 25rem;
+  height: 3rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #fffefe;
+}
+
+.save-delete {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.save{
+.save {
   background: #49ba69;
   border: 1px solid #000000;
   border-radius: 5px;
 }
 
-.delete{
+.edit {
+  background: #d59a39;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.delete {
   background: #ba4949;
   border: 1px solid #000000;
   border-radius: 5px;
